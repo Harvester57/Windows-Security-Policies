@@ -1,0 +1,12 @@
+[version]
+signature="$CHICAGO$"
+DriverVer=07/01/2001,5.1.2600.0
+
+[Profile Description]
+%SCEProfileDescription%
+
+[File Security]
+"%SystemDrive%\",0,"D:AR(A;;0x1200a9;;;WD)(A;OICI;FA;;;SY)(A;OICI;FA;;;BA)(A;OICI;0x1200a9;;;BU)"
+
+[Strings]
+SCEProfileDescription = "Applies default root permissions to the OS partition and propagates them to child objects that are inheriting from the root.  The propagation time depends on the number of unprotected child objects.  See online help for further information."
